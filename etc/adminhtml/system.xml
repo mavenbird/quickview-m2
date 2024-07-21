@@ -26,7 +26,7 @@
         </tab>
 
         <section id="mavenbird_quickview" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>AJAX Quick View</label>
+            <label>Quick View</label>
             <tab>mavenbird</tab>
             <resource>Mavenbird_Quickview::mavenbird_quickview</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
