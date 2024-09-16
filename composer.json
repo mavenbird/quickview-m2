@@ -1,0 +1,29 @@
+{
+  "name": "mavenbird/module-quickview",
+  "description": "The Mavenbird Module Quickview is a Magento 2 module designed for streamlined data visualization and retrieval",
+  "require": {
+      "php": ">=8.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+      {
+        "name": "Mavenbird",
+        "email": "support@mavenbird.com",
+        "homepage": "https://www.mavenbird.com",
+        "role": "Technical Support"
+      }
+  ],
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4":  { 
+          "Mavenbird\\Quickview\\": ""
+      }
+  }
+}
