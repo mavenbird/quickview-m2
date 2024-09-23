@@ -77,13 +77,13 @@ define([
                         var myClass = $(this).attr('class');
                     }
                     if (showMoreInfo == 1 && showReview == 1) {
-                        if (url != '#additional' && url != '#reviews' && url != '#product.info.description' && myClass != 'action add' && myClass != 'action view') {
+                        if (url != '#additional' && url != '#reviews' && url != '#product.info.description' && url != '#description'  && myClass != 'action add' && myClass != 'action view') {
                             self.parent.location.href = url;  
                             return false;
                         }
                     } else {
-                        if (url != '#additional' && url != '#reviews' && url != '#product.info.description') {
-                            self.parent.location.href = url;  
+                        if (url != '#additional' && url != '#reviews' && url != '#product.info.description'  && url != '#description')  {
+                            self.parent.location.href = url; 
                             return false;
                         }
                     }
