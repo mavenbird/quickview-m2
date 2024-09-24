@@ -96,7 +96,7 @@ define([
                 },
                 type: 'iframe',
                 closeOnBgClick: false,
-                scrolling: false,
+                scrolling: true,
                 preloader: true,
                 tLoading: '',
                 callbacks: {

@@ -39,7 +39,7 @@ define([
                 $('.mfp-iframe-scaler iframe', parentBody).animate({'opacity': 1}, 2000);
                 $('.reviews-actions a').attr('target', '_parent');
                 $('.product-social-links a').attr('target', '_parent');
-                $('body').css('overflow', 'hidden');
+                $('body').css('overflow', 'auto');
 
                 setInterval(function(){
                     if (firstAttempt) {
